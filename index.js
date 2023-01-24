@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get("/user", (req, res) => {
-  const user = { name: "Alex", age: 40 };
+  const user = { name: "Dmytro Babich", age: 21 };
   res.json({
     response: true,
     user,
